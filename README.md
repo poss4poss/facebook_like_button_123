@@ -14,7 +14,7 @@ This plugin created for you will be able to adding Facebook Like Button to every
 
 == Installation ==
 
-1. Upload `Facebook Like Button 123` folder to the `/wp-content/plugins/` directory
+1. Upload `Facebook Like Button 123` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
