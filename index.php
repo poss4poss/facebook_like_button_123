@@ -17,7 +17,7 @@ function like_button_123_for_facebook($content) {
      if (!is_home()) {
 	  	        
                     $content .= '   
-                     <div id="fb-root"></div>
+                     <div id="fb-root" style="float:left; margin-right:6px;"></div>
             <script>(function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) return;
