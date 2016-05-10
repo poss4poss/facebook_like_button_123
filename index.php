@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Facebook Like Button 123
+Plugin Name: Like Button 123 for Facebook
 Plugin URI: 
 Description: plugin for setup Facebook Like Button to every post on your wordpress blog.
 Version: 1.0
@@ -9,7 +9,7 @@ Author URI:
 */
 
 
-function facebook_like_button_123($content) {
+function like_button_123_for_facebook($content) {
 	
 	$current_url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];       
      
@@ -36,4 +36,4 @@ function facebook_like_button_123($content) {
         
         return $content;  
 }
-add_action('the_content','facebook_like_button_123');
+add_action('the_content','like_button_123_for_facebook');
